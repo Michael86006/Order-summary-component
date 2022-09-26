@@ -1,0 +1,141 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: hsl(225, 100%, 94%); 
+	background-image: url(images/pattern-background-mobile.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Red Hat Display', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;		
+	align-items: center;
+}
+
+.contenedor {
+	width: 330px;
+	background-color: #fff;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 10px 20px hsl(225, 30%, 80%);
+}
+
+.imagen1 {
+	border-radius: 20px 20px 0px 0px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-weight: 900;
+	margin-bottom: 20px;
+	font-size: 25px;
+	color: hsl(223, 47%, 23%);	
+}
+
+.p1 {
+	width: 80%;
+	text-align: center;
+	margin-bottom: 20px;
+	line-height: 25px;
+	font-size: 15px;
+	color: hsl(224, 23%, 55%);
+}
+
+.seccion-plan {
+	background-color: hsl(225, 100%, 98%);
+	width: 85%;
+	height: 80px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+}
+
+.icono {
+	margin-left: 15px;
+}
+
+.plan {
+	margin-left: 15px;
+	margin-right: 50px;
+}
+
+#titulo-plan {
+	color: hsl(223, 47%, 23%);
+	font-size: 15px;
+	font-weight: 900;
+}
+
+#monto-plan {
+	color: hsl(224, 23%, 55%);
+
+}
+
+.change {
+	font-size: 13px;
+	font-weight: 700;
+	margin-right: 15px;
+}
+
+.change:hover {
+	color: hsl(245, 75%, 65%);
+	text-decoration: none;
+}
+
+.boton {
+	font-weight: 700;
+	font-size: 13px;
+	width: 85%;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	background-color: hsl(245, 75%, 52%);
+	color: #fff;
+	box-shadow: 0px 10px 20px hsl(225, 100%, 92%);
+	margin-bottom: 20px;
+}
+
+.boton:hover {
+	background-color: hsl(245, 75%, 65%);
+}
+
+.cancel {
+	text-decoration: none;
+	color: hsl(224, 23%, 55%);
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.cancel:hover {
+	font-weight: 900;
+	color: hsl(223, 47%, 23%);
+}
+
+@media(min-width: 440px){
+	body {
+		background-image: url(images/pattern-background-desktop.svg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.contenedor {
+		width: 380px;
+	}
+
+	.plan {
+		margin-right: 80px;
+	}
+}
+
+
